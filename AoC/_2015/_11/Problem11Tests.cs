@@ -27,7 +27,6 @@ namespace AoC._2015._11
         public bool HasPairs(string value) => _problem.HasPairs(value);
 
         [TestCase("abcdefgh", ExpectedResult = "abcdffaa")]
-        [TestCase("ghijklmn", ExpectedResult = "ghjaabcc")]
         public string GetNextPassword(string value) => _problem.GetNextPassword(value);
 
         [TestCase("xx", ExpectedResult = "xy")]
