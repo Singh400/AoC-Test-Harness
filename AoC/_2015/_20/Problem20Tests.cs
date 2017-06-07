@@ -8,7 +8,7 @@ namespace AoC._2015._20
     {
         private Problem_2015_20 _problem;
 
-        [OneTimeSetUp]
+        [SetUp]
         public void Setup() => _problem = new Problem_2015_20();
 
         [TestCase(60, ExpectedResult = "1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60")]

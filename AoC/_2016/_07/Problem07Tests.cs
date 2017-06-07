@@ -7,7 +7,7 @@ namespace AoC._2016._07
     {
         private Problem_2016_07 _problem;
 
-        [OneTimeSetUp]
+        [SetUp]
         public void Setup() => _problem = new Problem_2016_07();
 
         [TestCase("abba[mnop]qrst", ExpectedResult = true)]

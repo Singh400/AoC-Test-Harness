@@ -27,7 +27,7 @@ namespace AoC._2016._06
             "enarar"
         };
 
-        [OneTimeSetUp]
+        [SetUp]
         public void Setup() => _problem = new Problem_2016_06();
 
         [Test]

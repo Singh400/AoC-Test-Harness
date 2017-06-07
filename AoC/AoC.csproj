@@ -41,33 +41,15 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
-      <HintPath>..\packages\BouncyCastle.1.8.1\lib\BouncyCastle.Crypto.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Combinatorics, Version=1.0.3.0, Culture=neutral, PublicKeyToken=d5738f21cd5d2f66, processorArchitecture=MSIL">
-      <HintPath>..\packages\Combinatorics.1.0.3.2\lib\net40\Combinatorics.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework, Version=3.7.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\NUnit.3.7.0\lib\net45\nunit.framework.dll</HintPath>
+    <Reference Include="nunit.framework, Version=3.2.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.2.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helper.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ISolveProblem.cs" />
     <Compile Include="_2015\_20\Problem20Tests.cs" />
@@ -78,7 +60,6 @@
     <Compile Include="_2015\_02\Problem02Tests.cs" />
     <Compile Include="_2015\_03\Problem_2015_03.cs" />
     <Compile Include="_2015\_03\Problem03Tests.cs" />
-    <Compile Include="_2015\_04\Problem_2015_04.cs" />
     <Compile Include="_2015\_05\Problem_2015_05.cs" />
     <Compile Include="_2015\_05\Problem05Tests.cs" />
     <Compile Include="_2015\_06\Problem_2015_06.cs" />
@@ -86,21 +67,15 @@
     <Compile Include="_2015\_07\Problem_2015_07.cs" />
     <Compile Include="_2015\_07\Problem07Tests.cs" />
     <Compile Include="_2015\_08\Problem_2015_08.cs" />
-    <Compile Include="_2015\_09\Problem_2015_09.cs" />
     <Compile Include="_2015\_10\Problem_2015_10.cs" />
     <Compile Include="_2015\_10\Problem10Tests.cs" />
     <Compile Include="_2015\_11\Problem_2015_11.cs" />
     <Compile Include="_2015\_11\Problem11Tests.cs" />
-    <Compile Include="_2015\_12\Problem_2015_12.cs" />
-    <Compile Include="_2015\_12\Problem12Tests.cs" />
-    <Compile Include="_2015\_13\Problem_2015_13.cs" />
     <Compile Include="_2015\_14\Problem_2015_14.cs" />
     <Compile Include="_2015\_15\Problem_2015_15.cs" />
     <Compile Include="_2015\_16\Problem_2015_16.cs" />
-    <Compile Include="_2015\_17\Problem_2015_17.cs" />
     <Compile Include="_2015\_18\Problem_2015_18.cs" />
     <Compile Include="_2015\_23\Problem_2015_23.cs" />
-    <Compile Include="_2015\_24\Problem_2015_24.cs" />
     <Compile Include="_2016\_01\Problem_2016_01.cs" />
     <Compile Include="_2016\_01\Problem01Tests.cs" />
     <Compile Include="_2016\_02\Problem_2016_02.cs" />
@@ -108,7 +83,6 @@
     <Compile Include="_2016\_03\Problem_2016_03.cs" />
     <Compile Include="_2016\_04\Problem_2016_04.cs" />
     <Compile Include="_2016\_04\Problem04Tests.cs" />
-    <Compile Include="_2016\_05\Problem_2016_05.cs" />
     <Compile Include="_2016\_06\Problem06Tests.cs" />
     <Compile Include="_2016\_06\Problem_2016_06.cs" />
     <Compile Include="_2016\_07\Problem07Tests.cs" />
@@ -121,7 +95,6 @@
     <Compile Include="_2016\_12\Problem_2016_12.cs" />
     <Compile Include="_2016\_13\Problem13Tests.cs" />
     <Compile Include="_2016\_13\Problem_2016_13.cs" />
-    <Compile Include="_2016\_14\Problem_2016_14.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -159,7 +132,10 @@
     <Content Include="_2016\_12\problem_12.txt" />
     <Content Include="_2016\_14\p2_bench.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="_2015\_04\" />
+    <Folder Include="_2016\_05\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

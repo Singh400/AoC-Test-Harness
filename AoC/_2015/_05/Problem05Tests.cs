@@ -7,7 +7,7 @@ namespace AoC._2015._05
     {
         private Problem_2015_05 _problem;
 
-        [OneTimeSetUp]
+        [SetUp]
         public void Setup() => _problem = new Problem_2015_05();
 
         [TestCase("ugknbfddgicrmopn", ExpectedResult = true)]

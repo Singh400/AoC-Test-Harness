@@ -7,7 +7,7 @@ namespace AoC._2016._04
     {
         private Problem_2016_04 _problem;
 
-        [OneTimeSetUp]
+        [SetUp]
         public void SetUp() => _problem = new Problem_2016_04();
 
         [TestCase("aaaaa-bbb-z-y-x-123[abxyz]", ExpectedResult = 123)]

@@ -3,8 +3,6 @@ using System.IO;
 using System.Linq;
 using System.Numerics;
 using System.Text;
-using NUnit.Framework.Constraints;
-using Org.BouncyCastle.Crypto.Engines;
 
 namespace AoC._2016._09
 {
