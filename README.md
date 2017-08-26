@@ -1,6 +1,6 @@
-# AoC Test Suite
+# AoC Test Harness
 
-This test suite was used to track a performance bug in NUnit. See https://github.com/nunit/nunit/issues/2217
+This test harness was used to track a performance bug in NUnit. See https://github.com/nunit/nunit/issues/2217
 
 The bug has since been identified: https://github.com/nunit/nunit/issues/2217#issuecomment-307207993
 
