@@ -1,4 +1,4 @@
-# AoC Test Harness
+# NUnit Test Harness
 
 This test harness was used to track a performance bug in NUnit. See https://github.com/nunit/nunit/issues/2217
 
