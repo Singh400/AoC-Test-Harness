@@ -12,7 +12,7 @@ The bug is present in NUnit versions v3.4.0 - v3.7.1 inclusive. NUnit 2.x is not
 
 To get nightly NUnit v3 build with the performance bug resolved you can use: https://www.myget.org/feed/nunit/package/nuget/NUnit/3.8.0-dev-04110
 
-**2017-08-29**: v3.8 has been released https://github.com/nunit/nunit/releases/tag/3.8 which contains the performance bug resolved.
+**2017-08-29**: v3.8 has been released https://github.com/nunit/nunit/releases/tag/3.8 which contains the performance bug fix.
 
 #### What does AoC stand for?
 AoC stands for [Advent of Code](https://adventofcode.com/).
