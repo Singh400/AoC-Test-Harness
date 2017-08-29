@@ -10,7 +10,7 @@ The bug is present in NUnit versions v3.4.0 - v3.7.1 inclusive. NUnit 2.x is not
 
 ~~Whilst the bug has been resolved the fix has not been published in a NUnit 3 release (yet).~~
 
-To get nightly NUnit v3 build with the performance bug resolved you can use: https://www.myget.org/feed/nunit/package/nuget/NUnit/3.8.0-dev-04110
+**2017-06-22**: To get nightly NUnit v3 build with the performance bug resolved you can use: https://www.myget.org/feed/nunit/package/nuget/NUnit/3.8.0-dev-04110
 
 **2017-08-29**: v3.8 has been released https://github.com/nunit/nunit/releases/tag/3.8 which contains the performance bug fix.
 
